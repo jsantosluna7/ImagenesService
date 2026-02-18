@@ -1,11 +1,12 @@
-version: '3.8'
-
 services:
-
   imagenesservice:
-    image: imagenesservice
+    build:
+      context: .
+      dockerfile: ImagenesService/Dockerfile
     container_name: imagenesservice
     restart: always
+    ports:
+      - "5005:8080"
     volumes:
       - /DATA/imagenes:/app/wwwroot/images
     networks:
@@ -14,11 +15,15 @@ services:
   nginx:
     image: nginx:latest
     container_name: nginx
-    depends_on:
-      - imagenesservice
     restart: always
     ports:
-      - "5211:80"
+      - "8080:8080"
       - "443:443"
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf
+    networks:
+      - erpnetwork
+
+networks:
+  erpnetwork:
+    driver: bridge

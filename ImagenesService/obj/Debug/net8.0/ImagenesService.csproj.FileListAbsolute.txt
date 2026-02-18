@@ -34,3 +34,4 @@ C:\Users\ADMIN\source\repos\ImagenesService\ImagenesService\obj\Debug\net8.0\ref
 C:\Users\ADMIN\source\repos\ImagenesService\ImagenesService\obj\Debug\net8.0\ImagenesService.pdb
 C:\Users\ADMIN\source\repos\ImagenesService\ImagenesService\obj\Debug\net8.0\ImagenesService.genruntimeconfig.cache
 C:\Users\ADMIN\source\repos\ImagenesService\ImagenesService\obj\Debug\net8.0\ref\ImagenesService.dll
+C:\Users\ADMIN\source\repos\ImagenesService\ImagenesService\obj\Debug\net8.0\ImagenesService.sourcelink.json

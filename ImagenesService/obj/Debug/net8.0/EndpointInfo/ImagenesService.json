@@ -46,6 +46,36 @@
           }
         }
       }
+    },
+    "/api/Imagenes/{tipo}/{nombre}": {
+      "delete": {
+        "tags": [
+          "Imagenes"
+        ],
+        "parameters": [
+          {
+            "name": "tipo",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "nombre",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": { }

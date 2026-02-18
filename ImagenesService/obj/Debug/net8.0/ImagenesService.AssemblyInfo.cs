@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ImagenesService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+830e85c9a6d3ae4c2d2b38b511ef5b4a5bb06a6f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ImagenesService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ImagenesService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

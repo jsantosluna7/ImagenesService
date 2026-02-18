@@ -1,6 +1,27 @@
 [
   {
     "ContainingType": "ImagenesService.Controllers.ImagenesController",
+    "Method": "Delete",
+    "RelativePath": "api/Imagenes/{tipo}/{nombre}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ImagenesService.Controllers.ImagenesController",
     "Method": "Upload",
     "RelativePath": "api/Imagenes/upload/{tipo}",
     "HttpMethod": "POST",
