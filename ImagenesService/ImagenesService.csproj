@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\imagenes\" />
+    <Folder Include="wwwroot\imagenes\categorias\" />
+    <Folder Include="wwwroot\imagenes\laboratorios\" />
+    <Folder Include="wwwroot\imagenes\usuarios\" />
+    <Folder Include="wwwroot\imagenes\productos\" />
+  </ItemGroup>
+
+</Project>

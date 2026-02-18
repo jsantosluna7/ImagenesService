@@ -1,0 +1,23 @@
+[
+  {
+    "ContainingType": "ImagenesService.Controllers.ImagenesController",
+    "Method": "Upload",
+    "RelativePath": "api/Imagenes/upload/{tipo}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
